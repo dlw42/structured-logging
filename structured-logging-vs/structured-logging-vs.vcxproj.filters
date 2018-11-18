@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{4fcf3c4d-ec9e-4cbc-bb4c-0afe873969c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\structured_logging">
+      <UniqueIdentifier>{b7debb63-2c10-4672-b6d6-bc4cff6737ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\structured_logging.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\structured_logging\field.hpp">
+      <Filter>include\structured_logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\structured_logging\logger.hpp">
+      <Filter>include\structured_logging</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\structured_logging\cout_json_backend.hpp">
+      <Filter>include\structured_logging</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
